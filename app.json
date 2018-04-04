@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/subject/subject",
+    "pages/user/user",
+    "pages/movie-detail/movie-detail",
+    "pages/subject-detail/subject-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电影预告",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/images/index.png",
+        "selectedIconPath": "/assets/images/index-active.png"
+      },
+      {
+        "pagePath": "pages/subject/subject",
+        "text": "分类",
+        "iconPath": "/assets/images/subject.png",
+        "selectedIconPath": "/assets/images/subject-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "/assets/images/user.png",
+        "selectedIconPath": "/assets/images/user-active.png"
+      }
+    ]
+  }
+}

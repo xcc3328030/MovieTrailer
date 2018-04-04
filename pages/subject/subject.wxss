@@ -1,0 +1,26 @@
+.container{
+  padding: 10rpx 35rpx;
+}
+.type-item{
+  border-radius: 10rpx;
+  position: relative;
+}
+.type-item{
+  margin-top:10rpx; 
+}
+
+.type-img{
+  width: 100%;
+  height: 240rpx;
+  border-radius: 10rpx;
+  display: block;
+}
+.type-title{
+  position: absolute;
+  left: 30rpx;
+  bottom: 20rpx;
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: bold;
+
+}
